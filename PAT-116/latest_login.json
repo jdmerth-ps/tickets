@@ -1,0 +1,66 @@
+{
+  "_id": "90020250723192055186819000000000000001223372115135991733",
+  "log_id": "90020250723192055186819000000000000001223372115135991733",
+  "date": "2025-07-23T19:20:55.171Z",
+  "type": "s",
+  "description": null,
+  "connection": "Cencora",
+  "connection_id": "con_aIEYJY0KxYsiO9E5",
+  "organization_id": "org_9IDvOYpNm8p4dq3J",
+  "organization_name": "triose",
+  "client_id": "czmHPbFlI2r7hsGPXEJcSKgSceOrmI20",
+  "client_name": "Logistics Center",
+  "ip": "72.0.175.154",
+  "hostname": "parcelshield-dev.us.auth0.com",
+  "details": {
+    "actions": {
+      "executions": [
+        "ZTIzdJbIsdVFXKKl8gnBZ9F7MjAyNTA3MjP5NeS06hFPdZYk55FtixBa"
+      ]
+    },
+    "channel": "back_channel",
+    "completedAt": 1753298455160,
+    "elapsedTime": 16670,
+    "initiatedAt": 1753298438490,
+    "prompts": [
+      {
+        "completedAt": 1753298454180,
+        "connection": "Cencora",
+        "connection_id": "con_aIEYJY0KxYsiO9E5",
+        "elapsedTime": 11824,
+        "identity": "Cencora|c6df5a7a0e6048b6817186433af0c26e",
+        "initiatedAt": 1753298442356,
+        "name": "federated-authenticate",
+        "stats": {
+          "loginsCount": 22
+        },
+        "strategy": "oidc"
+      },
+      {
+        "completedAt": 1753298454210,
+        "elapsedTime": 15709,
+        "flow": "universal-login",
+        "initiatedAt": 1753298438501,
+        "name": "login",
+        "timers": {
+          "rules": 652
+        },
+        "user_id": "oidc|Cencora|c6df5a7a0e6048b6817186433af0c26e",
+        "user_name": ""
+      }
+    ],
+    "session_id": "Q4imElj9t5TnNvilE6zNpz36sgRMNVJq",
+    "stats": {
+      "loginsCount": 22
+    },
+    "token_endpoint_auth_method": "client_secret_post"
+  },
+  "user_id": "oidc|Cencora|c6df5a7a0e6048b6817186433af0c26e",
+  "user_name": "",
+  "user_agent": "Chrome 138.0.0 / Mac OS X 10.15.7",
+  "audience": null,
+  "strategy": "oidc",
+  "strategy_type": "enterprise",
+  "isMobile": false,
+  "location_info": {}
+}
