@@ -79,6 +79,13 @@ After reviewing the provided documentation:
 - This is an undocumented deviation from their stated OIDC implementation
 - The Auth0 Action workaround is necessary to bridge this gap
 
+## Triose Demo App (July 24, 2025)
+- **Demo URL**: https://655064844703.us1.my.gigya-ext.com/pages/login
+- **OAuth Flow**: Select "Test Parent" → "OIDC RP-Initiated Login" → Login → Get auth code
+- **Manual Token Exchange**: Works correctly via Postman
+- **Userinfo Access**: Successful with OAuth access tokens
+- **Validation**: Confirms our root cause analysis and Auth0 Action solution
+
 ## Files Created
 - `get_token.sh` - Client credentials flow attempt
 - `auth_code_flow.sh` - Authorization code flow URL generator
